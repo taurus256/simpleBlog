@@ -1,0 +1,130 @@
+/*special styling for TS*/
+
+.advertisement{
+    background-color: #ffd87c;
+    padding: 10px;
+}
+
+.advertisement p{
+    margin: 0px;
+}
+
+
+.planet_body{
+    font-family: sans-serif;
+    padding: 0px;
+}
+
+.planet_contained{
+    font-family: sans-serif;
+    height: 0px;
+    padding: 0px;
+}
+
+#myCanvasContainer{
+    height: 0px;
+}
+
+#full_link{
+    margin: 20px;
+}
+
+#full_link a{
+    color: #aaaaaa;
+}
+
+#planetCanvas{
+    position: fixed;
+    left: 0px;
+    z-index: 1;
+}
+
+body{
+    background-attachment: fixed;
+}
+
+
+#body > section
+{
+    background-color:white;
+}
+
+#body .widget_html_block
+{
+    padding-top: 30px;
+}
+
+#body .widget_html_block h1
+{
+    font-size: 36pt;
+    padding-bottom:30px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Adaptation for mobile phones*/
+@media screen and (max-width: 1200px) {
+  body
+  {
+    background: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+   body
+    {
+	background: none;
+    }   
+     
+    #layout
+    {
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    }
+    
+    #body section article
+    {
+	padding: 20px;
+    }
+    
+    .widget_ajax_wrap{
+	padding-left: 20px;
+	padding-right: 20px;
+    }
+    
+    header .widget_ajax_wrap{
+	padding: 0px;
+    }
+    
+    nav {
+	padding: 0px;
+    }
+    
+    #layout header{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0px;
+    }
+    
+    #layout header > h1 {
+	font-size:26pt;
+    }
+    
+    #layout header #logo > span{
+	height:0px;
+	visibility:hidden;
+    }
+    
+    #body .widget_html_block {
+	margin: 0px;
+    }
+    
+    #body .widget_html_block h1{
+	margin-top: 0px;
+	margin-bottom: 20px;
+    }
+}
