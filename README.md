@@ -1,4 +1,3 @@
-# simpleBlog
 Blog template for InstantCMS
 ---------------------------------
 Шаблон блога для InstantCMS.
